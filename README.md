@@ -1,2 +1,2 @@
-# Geophysical-Exploration-of-the-Cryosphere
+# Geostatistically Simulating Mertz Glacier Bed Topography Using Sequential Gaussian Simulation and Markov Chain Monte Carlo
 CURE Course-based Research
