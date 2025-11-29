@@ -85,39 +85,39 @@ gstatsMCMC
 
 #### Dependencies:
 
-python=3.12.3
+	python=3.12.3
 
-numba=0.59.1
+	numba=0.59.1
 
-numpy=1.26.4
+	numpy=1.26.4
 
-pandas=2.1.4
+	pandas=2.1.4
 
-scikit-gstat=1.0.21
+	scikit-gstat=1.0.21
 
-scikit-learn=1.7.1
+	scikit-learn=1.7.1
 
-scipy=1.12.0
+	scipy=1.12.0
 
-matplotlib-base=3.10.1
+	matplotlib-base=3.10.1
 
-matplotlib-inline=0.1.7
+	matplotlib-inline=0.1.7
 
-gstools=1.7.0
+	gstools=1.7.0
 
-gstools-cython=1.1.0
+	gstools-cython=1.1.0
 
-pillow=10.3.0
+	pillow=10.3.0
 
-xarray=2024.1.0
+	xarray=2024.1.0
 
-pyproj=3.6.1
+	pyproj=3.6.1
 
-jupyterlab
+	jupyterlab
 
-netCDF4
+	netCDF4
 
-verde=1.8.1
+	verde=1.8.1
 
 pip
 
