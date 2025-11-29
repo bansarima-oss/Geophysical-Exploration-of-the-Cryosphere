@@ -12,9 +12,19 @@ Remaining figures are either being updated or created.
 
 ## Environment
 This work utilized a conda environment with gstatsMCMC.yml.
-Such an environment can be reproduced with the following prompt:
+Such an environment can be reproduced with the following prompts:
 `conda env create -f gstatsMCMC.yml`
+
 `conda activate gstatsMCMC`
+
+Then launched with:
+`conda activate gstatsMCMC'
+
+`jupyter lab`
+
+And deactivated with:
+
+`conda deactivate`
 
 ## Usage
 ## Data
