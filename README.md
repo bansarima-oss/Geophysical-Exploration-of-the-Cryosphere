@@ -16,11 +16,15 @@ Remaining figures are either being updated or created.
 This work utilized a conda environment with gstatsMCMC.yml.
 Such an environment can be reproduced with the following prompt:
 
+''' conda env create -f gstatsMCMC.yml '''
+
+''' conda activate gstatsMCMC '''
+
 ## Usage
 ## Data
 ## Software and References
 
-# Authors: 
+### Authors: 
 Maheer Bansari, Emma (Mickey) MacKie, Niya Shao
 
 https://github.com/NiyaShao/geostatisticalMCMC.git
