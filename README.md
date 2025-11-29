@@ -7,6 +7,7 @@ University of Florida, Fall 2025.
 ## Overview
 The topography underneath the surface of ice influences how fast and in which direction the ice is flowing and will flow in the future. In particular, Mertz Glacier is known to have undergone a calving event in 2010, after further study into the matter, it is possible that the glacier goes through cycles of ablation and calving (Giles, 2017). It is important to study the topography under this area to understand how future calving may occure, and to obtain further evidence for this cyclical nature. BedMap3 and BedMachine are products which utilized kriging to interpolate between the raw data and retain mass conservation. However, the topography they produce is too smooth to be realistic geologicaly. In order to create a rough topography, sequential gaussian simulation may be used to randomly generate topography that is constrained to match the data points, yet has geostatistical variance and realism. However, this geography has a high loss initially, and thus it is beneficial to iterate this method with markov chain monte carlo to reduce the loss. 
 
+
 ## Environment
 This work utilized a conda environment with `gstatsMCMC.yml`.
 
@@ -17,7 +18,8 @@ Such an environment can be reproduced with the following prompts in terminal:
 `conda activate gstatsMCMC`
 
 Then launched with:
-`conda activate gstatsMCMC'
+
+`conda activate gstatsMCMC`
 
 `jupyter lab`
 
