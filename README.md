@@ -19,6 +19,10 @@ Such an environment can be reproduced with the following prompt:
 ## Usage
 ## Data
 ## Software and References
+
+# Authors: 
+Maheer Bansari, Emma (Mickey) MacKie, Niya Shao
+
 https://github.com/NiyaShao/geostatisticalMCMC.git
 
 SciKit Gstat
