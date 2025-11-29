@@ -1,18 +1,16 @@
 # Geostatistically Simulating Mertz Glacier Bed Topography Using Sequential Gaussian Simulation and Markov Chain Monte Carlo
 
-A project I worked on in the Course-Based Undergraduate Research Experience, Geophysical Exploration of the Cryosphere. University of Florida, Fall 2025.
+A project developed for the Course-Based Undergraduate Research Experience, 
+### Geophysical Exploration of the Cryosphere, 
+University of Florida, Fall 2025.
 
 ## Overview
 The topography underneath the surface of ice influences how fast and in which direction the ice is flowing and will flow in the future. In particular, Mertz Glacier is known to have undergone a calving event in 2010, after further study into the matter, it is possible that the glacier goes through cycles of ablation and calving (Giles, 2017). It is important to study the topography under this area to understand how future calving may occure, and to obtain further evidence for this cyclical nature. BedMap3 and BedMachine are products which utilized kriging to interpolate between the raw data and retain mass conservation. However, the topography they produce is too smooth to be realistic geologicaly. In order to create a rough topography, sequential gaussian simulation may be used to randomly generate topography that is constrained to match the data points, yet has geostatistical variance and realism. However, this geography has a high loss initially, and thus it is beneficial to iterate this method with markov chain monte carlo to reduce the loss. 
-![Image 11-18-25 at 10 16 PM](https://github.com/user-attachments/assets/222574ec-5b6d-4c1a-bd6f-f16c70185b70)
-![Image 11-18-25 at 10 18 PM](https://github.com/user-attachments/assets/c727f50f-6a25-425a-a6b9-8693f54b7e9d)
-![Image 11-18-25 at 10 23 PM](https://github.com/user-attachments/assets/986b864c-c412-4c68-b4dc-c25965b000ac)
-![Image 11-18-25 at 10 24 PM](https://github.com/user-attachments/assets/90270314-0fae-49d4-a7f9-3c2bb2324d1c)
-Remaining figures are either being updated or created.
 
 ## Environment
-This work utilized a conda environment with gstatsMCMC.yml.
-Such an environment can be reproduced with the following prompts:
+This work utilized a conda environment with `gstatsMCMC.yml`.
+Such an environment can be reproduced with the following prompts in terminal:
+
 `conda env create -f gstatsMCMC.yml`
 
 `conda activate gstatsMCMC`
@@ -27,11 +25,27 @@ And deactivated with:
 `conda deactivate`
 
 ## Usage
+
+To reproduce or extend this work:
+	1.	Crop raw radar data using `Lab1_LoadData.ipynb` (or see Tutorial 1 in Niya Shao’s repository: https://github.com/NiyaShao/geostatisticalMCMC.git￼)
+	2.	Fit variograms and generate initial SGS realizations with `T2_StatisticalAnalysis.ipynb`
+	3.	Initialize and run the large-scale chain (`T3_LargeScaleChain.ipynb`)
+	4.	Initialize and run the small-scale chain (`T4_SmallScaleChain.ipynb`)
+	5.	Visualize final outputs using `visualization.ipynb`
+
+For updated tutorials and optimized methods, refer to the original repository:
+https://github.com/NiyaShao/geostatisticalMCMC.git￼
 ## Data
+
 ## Software and References
 
 ### Authors: 
 Maheer Bansari, Emma (Mickey) MacKie, Niya Shao
+
+<img width="1181" height="1181" alt="30" src="https://github.com/user-attachments/assets/c0eb49d0-8138-4227-8518-5e4a208dc23b" />
+
+
+### Softwares used
 
 https://github.com/NiyaShao/geostatisticalMCMC.git
 
@@ -94,5 +108,7 @@ pip:
 gstatsim==1.1.5
 
 opencv-python==4.9.0.80
+
+### References to text
 
 Giles, A. B. (2017). The Mertz Glacier Tongue, East Antarctica. Changes in the past 100years and its cyclic nature - Past, present and future. Remote Sensing of Environment, 191, 30-37. https://doi.org/https://doi.org/10.1016/j.rse.2017.01.003
