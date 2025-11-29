@@ -83,7 +83,7 @@ Topography
 
 gstatsMCMC
 
-Dependencies:
+#### Dependencies:
 
 python=3.12.3
 
@@ -121,11 +121,11 @@ verde=1.8.1
 
 pip
 
-pip:
+	pip:
 
-gstatsim==1.1.5
+	gstatsim==1.1.5
 
-opencv-python==4.9.0.80
+	opencv-python==4.9.0.80
 
 ### References to text
 
