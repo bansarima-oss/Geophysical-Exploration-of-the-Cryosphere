@@ -13,10 +13,8 @@ Remaining figures are either being updated or created.
 ## Environment
 This work utilized a conda environment with gstatsMCMC.yml.
 Such an environment can be reproduced with the following prompt:
-
 `conda env create -f gstatsMCMC.yml`
-
-''' conda activate gstatsMCMC '''
+`conda activate gstatsMCMC`
 
 ## Usage
 ## Data
