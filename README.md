@@ -9,6 +9,7 @@ The topography underneath the surface of ice influences how fast and in which di
 
 ## Environment
 This work utilized a conda environment with `gstatsMCMC.yml`.
+
 Such an environment can be reproduced with the following prompts in terminal:
 
 `conda env create -f gstatsMCMC.yml`
@@ -41,6 +42,18 @@ To reproduce or extend this work:
 For updated tutorials and optimized methods, refer to the original repository:
 https://github.com/NiyaShao/geostatisticalMCMC.git￼
 ## Data
+
+Haran, T., Klinger, M., Bohlander, J., Fahnestock, M., Painter, T. & Scambos, T. (2018). MEaSUREs MODIS Mosaic of Antarctica 2013-2014 (MOA2014) Image Map. (NSIDC-0730, Version 1). [Data Set]. Boulder, Colorado USA. NASA National Snow and Ice Data Center Distributed Active Archive Center. https://doi.org/10.5067/RNF17BP824UM. 
+
+Jan Melchior van Wessem, Willem Jan van de Berg, & Michiel Roland van den Broeke. (2023). Data set: Monthly averaged RACMO2.3p2 variables (1979-2022); Antarctica [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7845736.
+
+Morlighem, M. (2022). MEaSUREs BedMachine Antarctica. (NSIDC-0756, Version 3). [Data Set]. Boulder, Colorado USA. NASA National Snow and Ice Data Center Distributed Active Archive Center. https://doi.org/10.5067/FPSU0V1MWUB6.
+
+Mouginot, J., Rignot, E. & Scheuchl, B. (2019). MEaSUREs Phase-Based Antarctica Ice Velocity Map. (NSIDC-0754, Version 1). [Data Set]. Boulder, Colorado USA. NASA National Snow and Ice Data Center Distributed Active Archive Center. https://doi.org/10.5067/PZ3NJ5RXRH10. [describe subset used if applicable]. Date Accessed 11-29-2025.
+
+Pritchard, H.D., Fretwell, P.T., Fremand, A.C. et al. Bedmap3 updated ice bed, surface and thickness gridded datasets for Antarctica. Sci Data 12, 414 (2025). https://doi.org/10.1038/s41597-025-04672-y.
+
+Rignot, E., Mouginot, J. & Scheuchl, B. (2023). MEaSUREs Grounding Zone of the Antarctic Ice Sheet. (NSIDC-0778, Version 1). [Data Set]. Boulder, Colorado USA. NASA National Snow and Ice Data Center Distributed Active Archive Center. https://doi.org/10.5067/HGLT8XB480E4.
 
 ## Software and References
 
