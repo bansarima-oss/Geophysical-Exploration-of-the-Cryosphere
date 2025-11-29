@@ -21,4 +21,28 @@ Such an environment can be reproduced with the following prompt:
 ## Software and References
 SciKit Gstat
 
+Dependencies:
+
+python=3.12.3
+numba=0.59.1
+numpy=1.26.4
+pandas=2.1.4
+scikit-gstat=1.0.21
+scikit-learn=1.7.1
+scipy=1.12.0
+matplotlib-base=3.10.1
+matplotlib-inline=0.1.7
+gstools=1.7.0
+gstools-cython=1.1.0
+pillow=10.3.0
+xarray=2024.1.0
+pyproj=3.6.1
+jupyterlab
+netCDF4
+verde=1.8.1
+pip
+pip:
+    - gstatsim==1.1.5
+    - opencv-python==4.9.0.80
+
 Giles, A. B. (2017). The Mertz Glacier Tongue, East Antarctica. Changes in the past 100years and its cyclic nature - Past, present and future. Remote Sensing of Environment, 191, 30-37. https://doi.org/https://doi.org/10.1016/j.rse.2017.01.003
