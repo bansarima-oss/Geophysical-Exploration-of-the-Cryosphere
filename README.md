@@ -19,6 +19,8 @@ Such an environment can be reproduced with the following prompt:
 ## Usage
 ## Data
 ## Software and References
+https://github.com/NiyaShao/geostatisticalMCMC.git
+
 SciKit Gstat
 
 geopandas
