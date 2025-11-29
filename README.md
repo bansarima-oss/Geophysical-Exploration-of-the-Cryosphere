@@ -27,10 +27,15 @@ And deactivated with:
 ## Usage
 
 To reproduce or extend this work:
-	1.	Crop raw radar data using `Lab1_LoadData.ipynb` (or see Tutorial 1 in Niya Shao’s repository: https://github.com/NiyaShao/geostatisticalMCMC.git￼)
+
+	1.	Crop raw radar data using `Lab1_LoadData.ipynb` (or see Tutorial 1 in Niya Shao’s repository: https://github.com/NiyaShao/geostatisticalMCMC.git)
+	
 	2.	Fit variograms and generate initial SGS realizations with `T2_StatisticalAnalysis.ipynb`
+	
 	3.	Initialize and run the large-scale chain (`T3_LargeScaleChain.ipynb`)
+	
 	4.	Initialize and run the small-scale chain (`T4_SmallScaleChain.ipynb`)
+	
 	5.	Visualize final outputs using `visualization.ipynb`
 
 For updated tutorials and optimized methods, refer to the original repository:
@@ -42,7 +47,7 @@ https://github.com/NiyaShao/geostatisticalMCMC.git￼
 ### Authors: 
 Maheer Bansari, Emma (Mickey) MacKie, Niya Shao
 
-<img width="1181" height="1181" alt="30" src="https://github.com/user-attachments/assets/c0eb49d0-8138-4227-8518-5e4a208dc23b" />
+<img width="300" height="300" alt="30" src="https://github.com/user-attachments/assets/c0eb49d0-8138-4227-8518-5e4a208dc23b" />
 
 
 ### Softwares used
