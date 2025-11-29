@@ -20,4 +20,5 @@ Such an environment can be reproduced with the following prompt:
 ## Data
 ## Software and References
 SciKit Gstat
+
 Giles, A. B. (2017). The Mertz Glacier Tongue, East Antarctica. Changes in the past 100years and its cyclic nature - Past, present and future. Remote Sensing of Environment, 191, 30-37. https://doi.org/https://doi.org/10.1016/j.rse.2017.01.003
