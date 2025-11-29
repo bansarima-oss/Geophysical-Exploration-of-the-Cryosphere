@@ -33,6 +33,8 @@ matplotlib.lines
 
 Topography
 
+gstatsMCMC
+
 Dependencies:
 
 python=3.12.3
@@ -72,7 +74,9 @@ verde=1.8.1
 pip
 
 pip:
-    - gstatsim==1.1.5
-    - opencv-python==4.9.0.80
+
+gstatsim==1.1.5
+
+opencv-python==4.9.0.80
 
 Giles, A. B. (2017). The Mertz Glacier Tongue, East Antarctica. Changes in the past 100years and its cyclic nature - Past, present and future. Remote Sensing of Environment, 191, 30-37. https://doi.org/https://doi.org/10.1016/j.rse.2017.01.003
