@@ -37,7 +37,7 @@ In T2_StatisticalAnalysis.ipynb, we generated an initial bed using a geostatisti
 The final topography reveals a region of rapidly varying bed elevation near (1.45, 1.95), a feature that was much harder to distinguish in BedMap3 and BedMachine. The figures below show the loss curves and mass-flux residuals compared with BedMachine.
 
 <p align="center">
-  <img width="374" height="556" src="https://github.com/user-attachments/assets/a0a8b869-5535-46b0-a001-6eb9eebabecc" />
+  <img width="354" height="528" alt="image" src="https://github.com/user-attachments/assets/a41f863d-3511-4c65-95af-fb9ed8d765e7" />
   <img src="https://github.com/user-attachments/assets/d1c8cee3-73db-4971-8656-3b708b8cf4d8" width="300" />
   <img src="https://github.com/user-attachments/assets/94666239-944f-4d23-8daa-d7a948305815" width="300" />
 </p>
