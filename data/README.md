@@ -1,1 +1,1 @@
-The data is obtained from MEaSUREs Bedmachine Antarctica and BedMap3
+The data is obtained from MEaSUREs Bedmachine Antarctica, BedMap3, and BedMachine.
