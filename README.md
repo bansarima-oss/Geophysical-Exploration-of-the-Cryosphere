@@ -38,7 +38,7 @@ In `T2_StatisticalAnalysis.ipynb`, we constructed an initial bed with a geostati
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d1c8cee3-73db-4971-8656-3b708b8cf4d8" width="300" />
-  <img src="https://github.com/user-attachments/assets/8f523683-4290-4731-ba58-286ba9141d32" width="300" />
+  <img src="https://github.com/user-attachments/assets/94666239-944f-4d23-8daa-d7a948305815" width="300" />
 </p>
 
 ## Environment
