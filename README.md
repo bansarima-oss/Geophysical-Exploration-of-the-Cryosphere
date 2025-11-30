@@ -19,7 +19,9 @@ As seen from the image above of the location, surface velocity, and surface type
 
 <img width="544" height="314" alt="image" src="https://github.com/user-attachments/assets/bed86b21-b72e-46b9-bbaf-b0b70727ee51" />
 
-The above figure highlights the current BedMap3 and BedMachine realizations of Mertz Glacier, and highlights an important downside to using these realizations in ice flow prediction models: there is a striking lack of roughness. The map seems unrealistically smooth, and ice will likely move unrealistically over such a topography. Thus, Niya Shao et al. have developed a set of tutorials to reconstruct the topography and add geostatistical roughness while retaining agreement with radar data. This is the Markov Chain Monte Carlo approach, which will be explained in detail below.
+The above figure highlights the current BedMap3 and BedMachine realizations of Mertz Glacier, and highlights an important downside to using these realizations in ice flow prediction models: there is a striking lack of roughness. The map seems unrealistically smooth, and ice will likely move unrealistically over such a topography. Thus, Niya Shao et al. have developed a set of tutorials to reconstruct the topography and add geostatistical roughness while retaining agreement with radar data. This is where the Markov Chain Monte Carlo approach comes in, which will be explained in detail below.
+
+<img width="618" height="350" alt="image" src="https://github.com/user-attachments/assets/25d82109-9041-4341-8b14-98927a053ebb" /> <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/d02526a1-e710-445d-a64b-e378d4dd6c4f" />
 
 
 ## Environment
