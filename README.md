@@ -5,7 +5,9 @@ A project developed for the Course-Based Undergraduate Research Experience, Geop
 ## Overview
 The topography underneath the surface of ice influences how fast and in which direction the ice is flowing and will flow in the future. In particular, Mertz Glacier is known to have undergone a calving event in 2010, after further study into the matter, it is possible that the glacier goes through cycles of ablation and calving (Giles, 2017). It is important to study the topography under this area to understand how future calving may occure, and to obtain further evidence for this cyclical nature. BedMap3 and BedMachine are products which utilized kriging to interpolate between the raw data and retain mass conservation. However, the topography they produce is too smooth to be realistic geologicaly. In order to create a rough topography, sequential gaussian simulation may be used to randomly generate topography that is constrained to match the data points, yet has geostatistical variance and realism. However, this geography has a high loss initially, and thus it is beneficial to iterate this method with markov chain monte carlo to reduce the loss. 
 
-<img width="594" height="638" alt="image" src="https://github.com/user-attachments/assets/0d5d7cee-9716-40c2-8026-5e06b003128e" />
+<p align="center">
+  <img width="594" height="638" src="https://github.com/user-attachments/assets/0d5d7cee-9716-40c2-8026-5e06b003128e" />
+</p>
 
 As seen from the image above of the location, surface velocity, and surface type mask, Mertz is in what appears to be a phase of tongue reformation after the 2010 calving event. There is rapid ice accumulation and a floating ice region remaining where the tongue once stood. For this project, the area cropped contains the following dimensions:
 
@@ -17,17 +19,27 @@ As seen from the image above of the location, surface velocity, and surface type
 
 `ymax = -1850250`
 
-<img width="544" height="314" alt="image" src="https://github.com/user-attachments/assets/bed86b21-b72e-46b9-bbaf-b0b70727ee51" />
+<p align="center">
+  <img width="544" height="314" src="https://github.com/user-attachments/assets/bed86b21-b72e-46b9-bbaf-b0b70727ee51" />
+</p>
 
 The above figure highlights the current BedMap3 and BedMachine realizations of Mertz Glacier, and highlights an important downside to using these realizations in ice flow prediction models: there is a striking lack of roughness. The map seems unrealistically smooth, and ice will likely move unrealistically over such a topography. Thus, Niya Shao et al. have developed a set of tutorials to reconstruct the topography and add geostatistical roughness while retaining agreement with radar data. This is where the Markov Chain Monte Carlo approach comes in, which will be explained in detail below.
 
-<img width="618" height="350" alt="image" src="https://github.com/user-attachments/assets/25d82109-9041-4341-8b14-98927a053ebb" /> <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/d02526a1-e710-445d-a64b-e378d4dd6c4f" />
+<p align="center">
+  <img width="618" height="350" src="https://github.com/user-attachments/assets/25d82109-9041-4341-8b14-98927a053ebb" />
+  <img width="350" height="350" src="https://github.com/user-attachments/assets/d02526a1-e710-445d-a64b-e378d4dd6c4f" />
+</p>
 
 In `T2_StatisticalAnalysis.ipynb`, we constructed an initial bed with a geostatistical realization using sequential gaussian simulation, and then used that simulation as the initial topography for our large-scale MCMC. In `T3_LargeScaleChain.ipynb` we incorporated markov chain monte carlo and large block sizes to rapidly close in on values that best fit the data with minimal loss over one million iterations, dipping to a loss below BedMachine. To further refine the realization, we then used a chain with much smaller block sizes in `T4_SmallScaleChain.ipynb` to further reduce the loss curve with 50,000 more iterations. In the end, the generated topography reveals a region of rapidly varying topography around (1.45, 1.95), which was significantly harder to see in the BedMap3 and BedMachine topographies. Following are the graphs of the loss curves and mass residuals, all compared to BedMachine.
 
-<img width="374" height="556" alt="image" src="https://github.com/user-attachments/assets/a0a8b869-5535-46b0-a001-6eb9eebabecc" />
+<p align="center">
+  <img width="374" height="556" src="https://github.com/user-attachments/assets/a0a8b869-5535-46b0-a001-6eb9eebabecc" />
+</p>
 
-<img width="662" height="706" alt="image" src="https://github.com/user-attachments/assets/d1c8cee3-73db-4971-8656-3b708b8cf4d8" />, <img width="662" height="706" alt="image" src="https://github.com/user-attachments/assets/8f523683-4290-4731-ba58-286ba9141d32" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d1c8cee3-73db-4971-8656-3b708b8cf4d8" width="300" />
+  <img src="https://github.com/user-attachments/assets/8f523683-4290-4731-ba58-286ba9141d32" width="300" />
+</p>
 
 ## Environment
 This work utilized a conda environment with `gstatsMCMC.yml`.
