@@ -7,7 +7,12 @@ The topography underneath the surface of ice influences how fast and in which di
 
 <img width="594" height="638" alt="image" src="https://github.com/user-attachments/assets/0d5d7cee-9716-40c2-8026-5e06b003128e" />
 
+As seen from the image above of the location, surface velocity, and surface type mask, Mertz is in what appears to be a phase of tongue reformation after the 2010 calving event. There is rapid ice accumulation and a floating ice region remaining where the tongue once stood. For this project, the area cropped contains the following dimensions:
 
+`xmin = 1382750
+xmax = 1543250
+ymin = -2077750
+ymax = -1850250`
 
 ## Environment
 This work utilized a conda environment with `gstatsMCMC.yml`.
