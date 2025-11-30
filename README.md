@@ -17,6 +17,11 @@ As seen from the image above of the location, surface velocity, and surface type
 
 `ymax = -1850250`
 
+<img width="544" height="314" alt="image" src="https://github.com/user-attachments/assets/bed86b21-b72e-46b9-bbaf-b0b70727ee51" />
+
+The above figure highlights the current BedMap3 and BedMachine realizations of Mertz Glacier, and highlights an important downside to using these realizations in ice flow prediction models: there is a striking lack of roughness. The map seems unrealistically smooth, and ice will likely move unrealistically over such a topography. Thus, Niya Shao et al. have developed a set of tutorials to reconstruct the topography and add geostatistical roughness while retaining agreement with radar data. This is the Markov Chain Monte Carlo approach, which will be explained in detail below.
+
+
 ## Environment
 This work utilized a conda environment with `gstatsMCMC.yml`.
 
@@ -71,7 +76,7 @@ Rignot, E., Mouginot, J. & Scheuchl, B. (2023). MEaSUREs Grounding Zone of the A
 ### Authors: 
 Maheer Bansari, Emma (Mickey) MacKie, Niya Shao
 
-<img width="300" height="300" alt="30" src="https://github.com/user-attachments/assets/c0eb49d0-8138-4227-8518-5e4a208dc23b" />
+<img width="150" height="150" alt="30" src="https://github.com/user-attachments/assets/c0eb49d0-8138-4227-8518-5e4a208dc23b" />
 
 
 ### Softwares used
