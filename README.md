@@ -23,9 +23,11 @@ The above figure highlights the current BedMap3 and BedMachine realizations of M
 
 <img width="618" height="350" alt="image" src="https://github.com/user-attachments/assets/25d82109-9041-4341-8b14-98927a053ebb" /> <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/d02526a1-e710-445d-a64b-e378d4dd6c4f" />
 
-In `T2_StatisticalAnalysis.ipynb`, we constructed an initial bed with a geostatistical realization using sequential gaussian simulation, and then used that simulation as the initial topography for our large-scale MCMC. In `T3_LargeScaleChain.ipynb` we incorporated markov chain monte carlo and large block sizes to rapidly close in on values that best fit the data with minimal loss over one million iterations, dipping to a loss below BedMachine. To further refine the realization, we then used a chain with much smaller block sizes in `T4_SmallScaleChain.ipynb` to further reduce the loss curve with 50,000 more iterations. In the end, the generated topography reveals a region of rapidly varying topography around (1.45, 1.95), which was significantly harder to see in the BedMap3 and BedMachine topographies. Following are the graphs of the loss curves.
+In `T2_StatisticalAnalysis.ipynb`, we constructed an initial bed with a geostatistical realization using sequential gaussian simulation, and then used that simulation as the initial topography for our large-scale MCMC. In `T3_LargeScaleChain.ipynb` we incorporated markov chain monte carlo and large block sizes to rapidly close in on values that best fit the data with minimal loss over one million iterations, dipping to a loss below BedMachine. To further refine the realization, we then used a chain with much smaller block sizes in `T4_SmallScaleChain.ipynb` to further reduce the loss curve with 50,000 more iterations. In the end, the generated topography reveals a region of rapidly varying topography around (1.45, 1.95), which was significantly harder to see in the BedMap3 and BedMachine topographies. Following are the graphs of the loss curves and mass residuals, all compared to BedMachine.
 
-<img width="530" height="872" alt="image" src="https://github.com/user-attachments/assets/f9da4b97-8dfc-4cfa-ab79-99123ba61fac" />
+<img width="374" height="556" alt="image" src="https://github.com/user-attachments/assets/a0a8b869-5535-46b0-a001-6eb9eebabecc" />
+
+<img width="662" height="706" alt="image" src="https://github.com/user-attachments/assets/d1c8cee3-73db-4971-8656-3b708b8cf4d8" />, <img width="662" height="706" alt="image" src="https://github.com/user-attachments/assets/8f523683-4290-4731-ba58-286ba9141d32" />
 
 ## Environment
 This work utilized a conda environment with `gstatsMCMC.yml`.
