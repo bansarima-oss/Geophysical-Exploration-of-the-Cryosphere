@@ -2,6 +2,8 @@
 
 A project developed for the Course-Based Undergraduate Research Experience, Geophysical Exploration of the Cryosphere, University of Florida, Fall 2025.
 
+Continued updates and contribution to DEMOGORGN body of research, Spring 2026 - present.
+
 ## Overview
 The topography beneath the ice influences how fast and in which direction the ice is flowing—and will flow in the future. Mertz Glacier experienced a major calving event in 2010, and further study suggests the glacier may undergo cyclical phases of tongue formation, ablation, and calving (Giles, 2017). Understanding the underlying topography is important for predicting future calving events and gathering evidence for this potential cycle.
 
