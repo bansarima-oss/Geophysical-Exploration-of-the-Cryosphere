@@ -41,6 +41,8 @@ The final topography reveals a region of rapidly varying bed elevation near (1.4
 <p align="center">
 	<img width="350" alt="image" src="https://github.com/user-attachments/assets/48800aa9-e087-4407-95f2-f48139a9e4d0" />
 	<img width="350" alt="image" src="https://github.com/user-attachments/assets/385b208d-c8a2-48fb-9770-666449d93dbe" />
+</p>
+<p align="center">
 	<img src="https://github.com/user-attachments/assets/d1c8cee3-73db-4971-8656-3b708b8cf4d8" width="300" />
 	<img src="https://github.com/user-attachments/assets/94666239-944f-4d23-8daa-d7a948305815" width="300" />
 </p>
