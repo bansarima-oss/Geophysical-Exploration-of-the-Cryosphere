@@ -43,7 +43,7 @@ The final topography reveals a region of rapidly varying bed elevation near (1.4
 	<img width="350" alt="image" src="https://github.com/user-attachments/assets/8af37a50-3ed0-4489-996f-b0d19f5ab051" />
 </p>
 
-What follows are the mass flux residuals, which indicate the net flow of ice into or out of each cell
+What follows are the mass flux residuals, which indicate the net flow of ice into or out of each cell.
 
 <p align="center">
 	<img src="https://github.com/user-attachments/assets/d1c8cee3-73db-4971-8656-3b708b8cf4d8" width="300" />
