@@ -39,9 +39,12 @@ In T2_StatisticalAnalysis.ipynb, we generated an initial bed using a geostatisti
 The final topography reveals a region of rapidly varying bed elevation near (1.45, 1.95), likely an artifact created by the MCMC algorithm. Current works to reduce the size of the high velocity mask are underway to prevent MCMC updates in the unstable region.
 
 <p align="center">
-	<img width="350" alt="image" src="https://github.com/user-attachments/assets/48800aa9-e087-4407-95f2-f48139a9e4d0" />
-	<img width="350" alt="image" src="https://github.com/user-attachments/assets/385b208d-c8a2-48fb-9770-666449d93dbe" />
+	<img width="350" alt="image" src="https://github.com/user-attachments/assets/94c57d82-82c0-4d6b-9d8f-b6499e1d2b33" />
+	<img width="350" alt="image" src="https://github.com/user-attachments/assets/8af37a50-3ed0-4489-996f-b0d19f5ab051" />
 </p>
+
+What follows are the mass flux residuals, which indicate the net flow of ice into or out of each cell
+
 <p align="center">
 	<img src="https://github.com/user-attachments/assets/d1c8cee3-73db-4971-8656-3b708b8cf4d8" width="300" />
 	<img src="https://github.com/user-attachments/assets/94666239-944f-4d23-8daa-d7a948305815" width="300" />
