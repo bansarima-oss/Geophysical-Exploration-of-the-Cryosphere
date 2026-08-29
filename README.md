@@ -1,7 +1,5 @@
 # Geostatistically Simulating Mertz Glacier Bed Topography Using Sequential Gaussian Simulation and Markov Chain Monte Carlo
 
-A project developed for the Course-Based Undergraduate Research Experience, Geophysical Exploration of the Cryosphere, University of Florida, Fall 2025.
-
 Continued updates and contribution to DEMOGORGN body of research, Spring 2026 - present.
 
 ## Overview
