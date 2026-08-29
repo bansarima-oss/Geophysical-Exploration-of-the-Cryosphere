@@ -36,12 +36,13 @@ The figure above shows the BedMap3 and BedMachine realizations of Mertz Glacier 
 
 In T2_StatisticalAnalysis.ipynb, we generated an initial bed using a geostatistical realization from sequential Gaussian simulation and used it as the starting point for the large-scale MCMC. In T3_LargeScaleChain.ipynb, we applied Markov Chain Monte Carlo with large block sizes to rapidly lower the loss over one million iterations, reaching values below BedMachine. We then refined the result in T4_SmallScaleChain.ipynb using much smaller block sizes and 50,000 additional iterations, further reducing the loss.
 
-The final topography reveals a region of rapidly varying bed elevation near (1.45, 1.95), a feature that was much harder to distinguish in BedMap3 and BedMachine. The figures below show the loss curves and mass-flux residuals compared with BedMachine.
+The final topography reveals a region of rapidly varying bed elevation near (1.45, 1.95), likely an artifact created by the MCMC algorithm. Current works to reduce the size of the high velocity mask are underway to prevent MCMC updates in the unstable region.
 
 <p align="center">
-  <img width="354" height="528" alt="image" src="https://github.com/user-attachments/assets/a41f863d-3511-4c65-95af-fb9ed8d765e7" />
-  <img src="https://github.com/user-attachments/assets/d1c8cee3-73db-4971-8656-3b708b8cf4d8" width="300" />
-  <img src="https://github.com/user-attachments/assets/94666239-944f-4d23-8daa-d7a948305815" width="300" />
+	<img width="530" height="384" alt="image" src="https://github.com/user-attachments/assets/48800aa9-e087-4407-95f2-f48139a9e4d0" />
+	<img width="530" height="384" alt="image" src="https://github.com/user-attachments/assets/4eae9c45-8f42-4f52-a05a-74699a087c18" />
+	<img src="https://github.com/user-attachments/assets/d1c8cee3-73db-4971-8656-3b708b8cf4d8" width="300" />
+	<img src="https://github.com/user-attachments/assets/94666239-944f-4d23-8daa-d7a948305815" width="300" />
 </p>
 
 ## Environment
